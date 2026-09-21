@@ -1,0 +1,12 @@
+.route-key {
+  display: flex;
+  gap: 12px;
+  margin-top: 7px;
+  font: 8px 'DM Mono';
+  letter-spacing: .45px;
+  color: #9ab0ac;
+}
+
+.route-key span { display: flex; align-items: center; gap: 5px; }
+.route-key i { display: inline-block; width: 15px; border-top: 2px solid #f04a47; }
+.route-key i.projected { border-top-color: #f5c84c; border-top-style: dashed; }
